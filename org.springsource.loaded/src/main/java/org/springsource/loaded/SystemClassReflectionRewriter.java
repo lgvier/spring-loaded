@@ -15,8 +15,8 @@
  */
 package org.springsource.loaded;
 
-import java.util.logging.Level;
-import java.util.logging.Logger;
+import org.springsource.loaded.logger.Level;
+import org.springsource.loaded.logger.Logger;
 
 import org.objectweb.asm.ClassAdapter;
 import org.objectweb.asm.ClassReader;

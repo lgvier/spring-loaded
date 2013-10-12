@@ -18,8 +18,8 @@ package org.springsource.loaded.agent;
 import java.io.File;
 import java.util.HashMap;
 import java.util.Map;
-import java.util.logging.Level;
-import java.util.logging.Logger;
+import org.springsource.loaded.logger.Level;
+import org.springsource.loaded.logger.Logger;
 
 import org.springsource.loaded.FileChangeListener;
 import org.springsource.loaded.GlobalConfiguration;

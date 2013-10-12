@@ -33,8 +33,8 @@ import java.util.HashSet;
 import java.util.List;
 import java.util.Map;
 import java.util.WeakHashMap;
-import java.util.logging.Level;
-import java.util.logging.Logger;
+import org.springsource.loaded.logger.Level;
+import org.springsource.loaded.logger.Logger;
 import java.util.regex.Matcher;
 
 import org.objectweb.asm.Opcodes;

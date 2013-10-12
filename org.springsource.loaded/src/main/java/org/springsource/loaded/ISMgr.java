@@ -18,8 +18,8 @@ package org.springsource.loaded;
 import java.lang.reflect.Field;
 import java.util.HashMap;
 import java.util.Map;
-import java.util.logging.Level;
-import java.util.logging.Logger;
+import org.springsource.loaded.logger.Level;
+import org.springsource.loaded.logger.Logger;
 
 /**
  * Every reloadable hierarchy gets an Instance State Manager (ISMgr). The instance state manager is used to find the value of a

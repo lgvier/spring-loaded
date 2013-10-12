@@ -19,8 +19,8 @@ import java.lang.reflect.Field;
 import java.lang.reflect.Modifier;
 import java.util.HashMap;
 import java.util.Map;
-import java.util.logging.Level;
-import java.util.logging.Logger;
+import org.springsource.loaded.logger.Level;
+import org.springsource.loaded.logger.Logger;
 
 /**
  * Able to read or write a particular field in a type. Knows nothing about the instance upon which the read/write may be getting

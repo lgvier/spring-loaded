@@ -39,8 +39,8 @@ import java.util.Properties;
 import java.util.Set;
 import java.util.StringTokenizer;
 import java.util.WeakHashMap;
-import java.util.logging.Level;
-import java.util.logging.Logger;
+import org.springsource.loaded.logger.Level;
+import org.springsource.loaded.logger.Logger;
 
 import org.springsource.loaded.agent.FileSystemWatcher;
 import org.springsource.loaded.agent.ReloadDecision;

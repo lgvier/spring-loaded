@@ -28,7 +28,7 @@ import java.util.HashSet;
 import java.util.Map;
 import java.util.NoSuchElementException;
 import java.util.StringTokenizer;
-import java.util.logging.Logger;
+import org.springsource.loaded.logger.Logger;
 
 import org.objectweb.asm.ClassAdapter;
 import org.objectweb.asm.ClassReader;

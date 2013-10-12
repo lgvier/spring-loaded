@@ -18,8 +18,8 @@ package org.springsource.loaded.agent;
 import java.lang.instrument.ClassFileTransformer;
 import java.lang.instrument.IllegalClassFormatException;
 import java.security.ProtectionDomain;
-import java.util.logging.Level;
-import java.util.logging.Logger;
+import org.springsource.loaded.logger.Level;
+import org.springsource.loaded.logger.Logger;
 
 import org.springsource.loaded.GlobalConfiguration;
 import org.springsource.loaded.ReloadableType;
